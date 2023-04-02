@@ -1,0 +1,134 @@
+[
+    {
+        "id": "post.PublishButton",
+        "defaultMessage": "Publish"
+    },
+    {
+        "id": "post.postIdNotFound",
+        "defaultMessage": "Post ID not found"
+    },
+    {
+        "id": "post.commentEmpty",
+        "defaultMessage": "Comment can not be empty."
+    },
+    {
+        "id": "post.featureImageEmpty",
+        "defaultMessage": "Feature image can not be empty."
+    },
+    {
+        "id": "post.titleEmpty",
+        "defaultMessage": "Title can not be empty."
+    },
+    {
+        "id": "post.summaryEmpty",
+        "defaultMessage": "Summary can not be empty."
+    },
+    {
+        "id": "post.bodyEmpty",
+        "defaultMessage": "Post content can not be empty."
+    },
+    {
+        "id": "post.canonical",
+        "defaultMessage": "The canonical url of the post."
+    },
+    {
+        "id": "post.payment",
+        "defaultMessage": "If price is greater than 0, the body of the post will be encrypted. Every reader will have to pay you to read it."
+    },
+    {
+        "id": "post.commentTooLong",
+        "defaultMessage": "Comment is too long."
+    },
+    {
+        "id": "post.commentPostLocally",
+        "defaultMessage": "Your comment is shown on current publication."
+    },
+    {
+        "id": "post.CommentSuccessfulTitle",
+        "defaultMessage": "Your comment is posted"
+    },
+    {
+        "id": "post.saveDraftSucceeded",
+        "defaultMessage": "Draft saved."
+    },
+    {
+        "id": "post.draftNotSavedTitle",
+        "defaultMessage": "Draft not saved yet"
+    },
+    {
+        "id": "post.draftNotSaved",
+        "defaultMessage": "Draft will be saved after login."
+    },
+    {
+        "id": "post.saveDraftFailed",
+        "defaultMessage": "Draft NOT saved."
+    },
+    {
+        "id": "post.commentPostSucceeded",
+        "defaultMessage": "Your comment has been broadcasted to blockchain."
+    },
+    {
+        "id": "post.Succeeded",
+        "defaultMessage": "Your post has been broadcasted to blockchain."
+    },
+    {
+        "id": "post.storageEmpty",
+        "defaultMessage": "Address that provides storage service can not be empty."
+    },
+    {
+        "id": "post.tagsEmpty",
+        "defaultMessage": "There has to be one tag at least."
+    },
+    {
+        "id": "delegate.userName",
+        "defaultMessage": "Give yourself a name on the blockchain."
+    },
+    {
+        "id": "delegate.userNameEmpty",
+        "defaultMessage": "Username can not be empty."
+    },
+    {
+        "id": "delegate.userNameInvalid",
+        "defaultMessage": "Username can only be 20 chars max and contain alphanumeric characters with the exception of !@$&_."
+    },
+    {
+        "id": "delegate.becomePublication",
+        "defaultMessage": "Switch ON to become a publication."
+    },
+    {
+        "id": "delegate.descriptionInvalid",
+        "defaultMessage": "Description can only be 200 chars."
+    },
+    {
+        "id": "delegate.voteSucceed",
+        "defaultMessage": "Your votes has been broadcasted to blockchain."
+    },
+    {
+        "id": "delegate.delegateSucceeded",
+        "defaultMessage": "Congrats. If you provide storage, please make sure you have enough disk space."
+    },
+    {
+        "id": "delegate.payOutInvalid",
+        "defaultMessage": "Payout should be a number between 0 and 100."
+    },
+    {
+        "id": "delegate.storageFeeInvalid",
+        "defaultMessage": "StorageFee should be a positive number."
+    },
+    {
+        "id": "delegate.description",
+        "defaultMessage": "Don't be shy. Introduce yourself."
+    },
+    {
+        "id": "delegate.payout",
+        "defaultMessage": "The percentage of block rewards to share with your voters. The higher percentage, the more votes."
+    },
+    {
+        "id": "storage.failedToRetrieve",
+        "defaultMessage": "Failed to retrieve storage service provider"
+    },
+    {
+        "id": "user.followingSucceed",
+        "defaultMessage": "You are following this user now."
+    }
+]

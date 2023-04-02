@@ -1,0 +1,108 @@
+@import "~draft-js/dist/Draft.css";
+@import "~@draft-js-plugins/inline-toolbar/lib/plugin.css";
+@import "~@draft-js-plugins/side-toolbar/lib/plugin.css";
+@import "~@draft-js-plugins/alignment/lib/plugin.css";
+@import "~@draft-js-plugins/image/lib/plugin.css";
+@import "~@draft-js-plugins/anchor/lib/plugin.css";
+@import "~@draft-js-plugins/divider/lib/plugin.css";
+@import "~@draft-js-plugins/focus/lib/plugin.css";
+@import "~prismjs/themes/prism.css"; // add prism.css to add highlights
+
+@media screen and (max-width: 768px) {
+  .dica-editor {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .dica-editor {
+    font-size: 20px;
+  }
+}
+.dica-editor {
+  box-sizing: border-box;
+  border: 0px solid #ddd;
+  width: 100%;
+  .dica-rtb-char-count {
+    font-size: 11px;
+    .dica-rtb-char-count-error {
+      color: red;
+    }
+  }
+}
+.dica-editor :global(.public-DraftEditor-content) {
+  min-height: 140px;
+}
+.options {
+  margin-bottom: 20px;
+}
+
+button.draftJsToolbar__button__qi1gf {
+  width: 34px;
+}
+
+.draftJsFocusPlugin__unfocused__1Wvrs:hover {
+  cursor: default;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #d2e3f7;
+}
+
+.draftJsFocusPlugin__focused__3Mksn {
+  cursor: default;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px; //@link-color;
+}
+
+.image-copyright {
+  font-size: 10px;
+}
+
+pre.public-DraftStyleDefault-pre {
+  margin: 30px 0px;
+  font-family: "Menlo, Monaco", "Courier New", Courier, monospace;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  white-space: pre-wrap;
+  overflow: auto;
+  outline: 0;
+  word-break: break-word;
+  word-wrap: break-word;
+  visibility: visible;
+  display: block;
+}
+
+blockquote {
+  border-left: 3px solid rgba(0, 0, 0, 0.5) !important;
+  padding-left: 20px !important;
+  margin-left: -23px !important;
+  padding-bottom: 2px !important;
+  margin-top: 38px !important;
+  margin-bottom: 0 !important;
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+  display: block;
+}
+
+blockquote + blockquote {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 27px;
+}
+
+.image-author {
+  font-size: 14px;
+}
+
+.anchor-plugin-input {
+  min-width: 450px;
+  padding: 5px;
+  //   color: var(--dica-text-color);
+  //   background-color: var(--dica-background-color);
+  //   border-color: var(--dica-primary-color);
+}
